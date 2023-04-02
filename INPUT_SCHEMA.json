@@ -7,7 +7,7 @@
 "title": "Destination",
 "type": "string",
 "description": "Insert the destination name here",
-"prefill": "New York",
+"prefill": "Sochi",
 "editor": "textfield"
 },
 "maxPages": {
