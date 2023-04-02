@@ -20,7 +20,8 @@
                             "rating",
                             "reviews",
                             "url",
-                            "image"
+                            "image",
+                            "price"
                         ]
 
                     },
@@ -31,7 +32,13 @@
                                 "label": "",
                                 "format": "image",
                                 "field": "image"
-                            },                            {
+                            }, 
+                            {
+                                "label": "Price",
+                                "format": "text",
+                                "field": "price"
+                            },                            
+                            {
                                 "label": "Name",
                                 "format": "text",
                                 "field": "name"
