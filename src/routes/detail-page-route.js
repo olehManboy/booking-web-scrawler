@@ -43,8 +43,8 @@ module.exports.handleDetailPage = async (context, globalContext) => {
 
     // Extract the data.
     log.info('extracting detail...');
-    log.info(page);
     const detail = await extractDetail(page, ld, input, userData);
+    log.info("detailed info", detail);
     log.info('detail extracted');
 
     const userResult = await getExtendedUserResult(page, extendOutputFunction, input.extendOutputFunction);
